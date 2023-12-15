@@ -1,0 +1,12 @@
+
+PURCHASE_ORDER_STATUS = {
+    "PENDING": 1,
+    "SHIPPED": 2,
+    "IN_TRANSIT": 3,
+    "COMPLETED": 4,
+    "CANCELLED": 5,
+    "EXCHANGED": 6,
+    "REFUNDED": 7,
+    "ACKNOWLEDGED":8,
+
+}
