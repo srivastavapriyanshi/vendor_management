@@ -1,4 +1,4 @@
-# vendor_management
+# Vendor Management
 
 -------INTRODUCTION--------
 
