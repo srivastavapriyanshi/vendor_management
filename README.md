@@ -16,6 +16,7 @@ Template is written with django 5.0 and python 3 in mind.
 details, address, and a unique vendor code.
 
 ● API Endpoints:
+
 ● POST /api/vendors/: Create a new vendor.
 ● GET /api/vendors/: List all vendors.
 ● GET /api/vendors/{vendor_id}/: Retrieve a specific vendor's details.
@@ -28,6 +29,7 @@ details, address, and a unique vendor code.
 order date, items, quantity, and status.
 
 ● API Endpoints:
+
 ● POST /api/purchase_orders/: Create a purchase order.
 ● GET /api/purchase_orders/: List all purchase orders with an option to filter by
 vendor.
@@ -38,6 +40,7 @@ vendor.
 3. Vendor Performance Evaluation:
    
 ● Metrics:
+
 ● On-Time Delivery Rate: Percentage of orders delivered by the promised date.
 ● Quality Rating: Average of quality ratings given to a vendor’s purchase orders.
 ● Response Time: Average time taken by a vendor to acknowledge or respond to
@@ -46,6 +49,7 @@ purchase orders.
 ● Model Design: Add fields to the vendor model to store these performance metrics.
 
 ● API Endpoints:
+
 ● GET /api/vendors/{vendor_id}/performance: Retrieve a vendor's performance
 metrics.
 ● Update Acknowledgment Endpoint:
