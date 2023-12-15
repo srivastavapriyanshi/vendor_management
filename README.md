@@ -9,7 +9,9 @@ metrics.
 Template is written with django 5.0 and python 3 in mind.
 
 ------- CORE FEATURES--------
+
 1. Vendor Profile Management:
+   
 ● Model Design: Create a model to store vendor information including name, contact
 details, address, and a unique vendor code.
 
@@ -21,6 +23,7 @@ details, address, and a unique vendor code.
 ● DELETE /api/vendors/{vendor_id}/: Delete a vendor.
 
 2. Purchase Order Tracking:
+   
 ● Model Design: Track purchase orders with fields like PO number, vendor reference,
 order date, items, quantity, and status.
 
@@ -33,6 +36,7 @@ vendor.
 ● DELETE /api/purchase_orders/{po_id}/: Delete a purchase order.
 
 3. Vendor Performance Evaluation:
+   
 ● Metrics:
 ● On-Time Delivery Rate: Percentage of orders delivered by the promised date.
 ● Quality Rating: Average of quality ratings given to a vendor’s purchase orders.
@@ -52,15 +56,18 @@ of average_response_time.
 -------SETUP---------------
 
 The first thing to do is to clone the repository:
+
 - git clone https://github.com/srivastavapriyanshi/vendor_management_system.git
 - cd vendor_management_system
 
 Create a virtual environment to install dependencies in and activate it:
+
 - python -m venv env
 - env\Scripts\activate (for windows) 
 - source env/bin/activate (for linux/macOS)
 
 Then install the dependencies:
+
 - (env)$ pip install -r requirements.txt
 
 Once pip has finished downloading the dependencies, then simply apply the migrations:
